@@ -2,6 +2,9 @@
 
 This repository contains the code for an AI form builder. Built with the ChatBotKit SDK, this example showcases how to render UI components inside an AI conversation.
 
+https://github.com/chatbotkit/example-nextjs-ai-forms/assets/60738984/940ed069-1e87-4f51-bac3-738b5deb9988
+
+
 ## Technology Stack
 
 - **ChatBotKit SDK**: For building the chatbot logic and handling conversation flow.
