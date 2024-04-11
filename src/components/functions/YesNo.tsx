@@ -11,24 +11,9 @@ export default function YesNoSelectInput({ message }: { message: string }) {
   const { request } = useContext(ConversationContext);
   const { isTyping } = useTypingAnimation(message);
 
-  const container = {
-    initial: { opacity: 0, y: 10 },
-    animate: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.2, staggerChildren: 0.1 },
-    },
-  };
-
-  const buttonVariant = {
-    initial: { opacity: 0, y: 10 },
-    animate: { opacity: 1, y: 0 },
-  };
-
   return (
     <>
       <BotMessage message={message} />
-
       {!isTyping && (
         <div className="flex gap-2">
           <button
