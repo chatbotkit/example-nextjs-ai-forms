@@ -17,8 +17,9 @@ export default function ScaleInput({ message }: { message: string }) {
 
       {!isTyping && (
         <div className="flex items-center gap-1.5">
-          {Array.from({ length: 10 }).map((item, index) => (
+          {Array.from({ length: 10 }).map((_, index) => (
             <button
+              key={index}
               onClick={(e) => {
                 request("captureScale", {
                   scale: index,
