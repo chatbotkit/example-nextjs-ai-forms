@@ -1,3 +1,5 @@
+[![Demo](https://img.shields.io/badge/live-demo-blue.svg)]([https://chatbotkit.com](https://chatbotkit-example-nextjs-ai-forms.vercel.app/))
+
 # AI Form Builder Example
 
 This repository contains the code for an AI form builder. Built with the ChatBotKit SDK, this example showcases how to render UI components inside an AI conversation.
