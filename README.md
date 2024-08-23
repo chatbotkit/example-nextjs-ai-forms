@@ -1,4 +1,4 @@
-[![Demo](https://img.shields.io/badge/live-demo-blue.svg)]([https://chatbotkit.com](https://chatbotkit-example-nextjs-ai-forms.vercel.app/))
+[![Demo](https://img.shields.io/badge/live-demo-blue.svg)](https://chatbotkit-example-nextjs-ai-forms.vercel.app/)
 
 # AI Form Builder Example
 
